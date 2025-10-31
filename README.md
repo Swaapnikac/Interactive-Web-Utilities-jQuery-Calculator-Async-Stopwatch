@@ -11,7 +11,7 @@ Both applications demonstrate clean code structure, inline error handling (witho
 
 ## Part A: jQuery-Based Calculator with Validation
 
-### 📋 Overview
+###  Overview
 A simple **two-page web application** built using **HTML, CSS, and jQuery**, implementing comprehensive form validation and arithmetic operations handled by **one arrow function** only.
 
 ---
