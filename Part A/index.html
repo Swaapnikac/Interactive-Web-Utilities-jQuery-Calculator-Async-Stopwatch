@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App - Login Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator App - Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email" class="form-label">E-mail ID:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+                <div id="emailError" class="form-error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+                <div id="usernameError" class="form-error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+                <div id="passwordError" class="form-error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword" class="form-label">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" required>
+                <div id="confirmPasswordError" class="form-error"></div>
+            </div>
+
+            <button type="submit" id="loginButton" class="btn" disabled>Log In</button>
+        </form>
+    </div>
+</body>
+</html>

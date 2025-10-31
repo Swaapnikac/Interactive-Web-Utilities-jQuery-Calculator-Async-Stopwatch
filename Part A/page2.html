@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator App - Page 2</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="app.css"></head>
+<body>
+	<h1>Welcome <span id="username" ></span>!</h1>
+	<form id="calculatorForm" class="calculator">
+		<label for="num1" class="input-label">Number 1:</label>
+		<input type="text" id="num1" name="num1" class="input-group" required >
+		<label for="num2" class="input-label">Number 2:</label>
+		<input type="text" id="num2" name="num2" class="input-group" required >
+		<br><button type="button" id="add" class="operation">Add</button>
+		<button type="button" id="subtract" class="operation">Subtract</button>
+		<button type="button" id="multiply" class="operation">Multiply</button>
+		<button type="button" id="divide" class="operation">Divide</button>
+	</form>
+	<br>
+	<b><div id="result" class="result"></div></b>
+	<b><div id="error" style="color:red" class="error"></div></b>
+</body>
+</html>
+
